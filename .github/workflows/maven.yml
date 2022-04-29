@@ -27,4 +27,4 @@ jobs:
     - name: test
       run: javac src/main/java/testmain.java
     - name: test2
-      run: java src/main/java/testmain
+      run: java target/classes/testmain
